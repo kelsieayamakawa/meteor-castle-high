@@ -14,14 +14,21 @@ Router.route('/', {
   name: 'Home'
 });
 
-Router.route('/list', {
-  name: 'ListStuff'
+Router.route('/studentsparents', {
+  name: 'StudentsParents'
 });
 
-Router.route('/add', {
-  name: 'AddStuff'
+Router.route('/facultystaff', {
+  name: 'FacultyStaff'
 });
 
+Router.route('/alumnifriends', {
+  name: 'AlumniFriends'
+});
+
+Router.route('/contact', {
+  name: 'Contact'
+});
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
